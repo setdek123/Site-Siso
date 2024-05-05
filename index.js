@@ -2,8 +2,9 @@
 // inicializador da api das animacoes
 AOS.init();
 
-/*------------------------------------------------------------------------
+
 let ConteudoText = document.getElementById("campo-text-id");
+let textP = document.getElementById("text-p");
 
 
 const reabilitacao = document.getElementById('reabilitacao');
@@ -12,13 +13,14 @@ const coroas = document.getElementById('coroas');
 const planejamento = document.getElementById('planejamento');
 
 
-
+textP.style.marginTop = '100px';
 
 
 const TxtContent = (e) =>{
     if(reabilitacao){
         e.preventDefault()
         ConteudoText.textContent='Pessoas com ausência parcial ou total de dentes, tem a disposição diversas alternativas de tratamento. Seja através de prótese fixa, com ou sem implantes; seja seja através de prótese removível ou ainda composição das duas.'
+        
     }
 
     
@@ -57,7 +59,7 @@ coroas.addEventListener('mouseover', coroContent)
 planejamento.addEventListener('mouseover', planeContent)
 
 
-/*----------------------------------------------------------------------*/
+
 
 // função infinita de pegar a foto e botar como background na home 
 
@@ -130,7 +132,7 @@ setInterval(()=>{
         
     }
 
-}, 3000)
+}, 7000)
 
 /*------------------ Contact Us ------------------------*/
 
